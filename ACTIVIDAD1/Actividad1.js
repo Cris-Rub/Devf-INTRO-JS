@@ -7,7 +7,7 @@ console.log(resultado)
 numero1=prompt("Primer numero")
 numero2=prompt("Segundo numero")
 resta=numero1-numero2
-console.log(resta)
+alert(resta)
 
 //Ejercicio 3
 var r=5.3
