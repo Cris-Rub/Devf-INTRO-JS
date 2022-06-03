@@ -25,24 +25,37 @@ numero5==1000 ? (
 );
 
 //Ejercicio 6
-var numero6_1=prompt("Primer valor");
-var numero6_2=prompt("Segundo valor");
+var numero6_1=Number(prompt("Primer valor"));
+var numero6_2=Number(prompt("Segundo valor"));
 if(numero6_1>numero6_2){
     console.log(numero6_1 + " es mayor que " + numero6_2);
 }
 else{
-    console.log(numero6_2 + " es mayor que " + numero6_1)
+    console.log(numero6_2 + " es mayor que " + numero6_1);
 }
 
 //Ejercicio 7
 var numero7_1=Number(prompt("Primer valor"));
 var numero7_2=Number(prompt("Segundo valor"));
+var numero7_3=Number(prompt("Tercer valor"));
 if(numero7_1==numero7_2){
-    console.log("Ambos numeros son iguales");
+    console.log("Todos numeros son iguales");
 }
-else if(numero7_1>numero7_2){
-    console.log(numero7_1 + " es mayor que " + numero7_2);
+else if(numero7_2==numero7_3){
+    console.log("Todos numeros son iguales");
+}
+else if(numero7_1==numero7_3){
+    console.log("Todos numeros son iguales");
+}
+else if(numero7_1>numero7_2 && numero7_1>numero7_3){
+    console.log(numero7_1 + " es el mayor");
+}
+else if(numero7_2>numero7_1 && numero7_2>numero7_3){
+    console.log(numero7_2 + " es el mayor");
+}
+else if(numero7_3>numero7_2 && numero7_3>numero7_1){
+    console.log(numero7_3 + " es el mayor");
 }
 else{
-    console.log(numero7_2 + " es mayor que " + numero7_1);
+    console.log("Error: asegurate de ingresar valores numericos validos");
 }
