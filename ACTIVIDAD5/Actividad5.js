@@ -1,6 +1,6 @@
 //Ejercicio1
 let array1=[1, 3, 6, 10, 22, 55, 46, 2, 5, 0];
-for(let i=0; i<=array1.length-1; i++){
+for(let i=0; i<array1.length-1; i++){
     if(array1[i]>3){
         console.log(array1[i]);
     }
