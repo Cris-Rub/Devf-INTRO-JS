@@ -17,7 +17,7 @@ function getCredit(age, debt){ //Declaración convencional
     }
 }
 
-let x = getCredit(19, false);
+let c = getCredit(19, false);
 console.log(x);
 
 
@@ -32,3 +32,20 @@ const getCredit = (age, debt) =>{
         }
     }
 }
+
+//SCOPE
+
+let x = 10;
+
+function getNumber(num){
+    let y = 20;
+    if(num>1){
+        num += y;
+        console.log(num);
+    }
+    var z=30;
+
+    console.log(x+y+z);
+}
+console.log(x+y);
+console.log(x+z);
