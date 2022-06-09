@@ -31,7 +31,10 @@
     }
   ];
 
-
+  function edad(family){
+    family.forEach(item => {
+      
+    });
 
   /**
  * Del siguiente arreglo de numeros, retorna la suma de todos los que son positivos. 
