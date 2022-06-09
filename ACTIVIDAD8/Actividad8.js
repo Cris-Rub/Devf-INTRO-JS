@@ -12,15 +12,15 @@
     3. Modifica el valor de la propiedad name y que el nuevo valor sea: "Steve Jobs"
  */
 
-var student = {
-    name: "David Rayy",
-    age: 34,
-    job: "engineer",
-    hobbies: ['Sky', 'football', 'walking my dog']
-};
-console.log(student.name);
-console.log(student['age']);
-student.name="Steve Jobs";
+// var student = {
+//     name: "David Rayy",
+//     age: 34,
+//     job: "engineer",
+//     hobbies: ['Sky', 'football', 'walking my dog']
+// };
+// console.log(student.name);
+// console.log(student['age']);
+// student.name="Steve Jobs";
 
 /**
  * Escriba un programa de JavaScript para enumerar las propiedades de un objeto de JavaScript.
@@ -39,3 +39,6 @@ var student = {
     rollno: 12
 };
 
+for(let i = 0; i < Object.entries(student); i++){
+    console.log(`$[i]: ${key}: ${value}`)
+}
