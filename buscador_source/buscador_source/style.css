@@ -1,0 +1,11 @@
+
+
+.object-fit{
+    object-fit: cover;
+}
+
+.bg-pelicula{
+    background-image: url(./bg-transformers.jpg);
+    background-size: cover;
+    background-position: center center;
+}

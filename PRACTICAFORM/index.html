@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio de sesion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Iniciar sesion</h1>
+    <form>
+        <div class="mb-3">
+          <label for="inputUser" class="form-label">Usuario</label>
+          <input type="text" class="form-control" id="inputUser" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">No compartimos tu usuario con nadie.</div>
+        </div>
+        <div class="mb-3">
+          <label for="inputPassword" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="inputPassword">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Mantener sesion abierta</label>
+        </div>
+    </form>
+    <a href="./user.html">Iniciar sesion</a>
+    <script src="./code.js"></script>
+  </body>
+</html>

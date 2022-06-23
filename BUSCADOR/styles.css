@@ -1,0 +1,9 @@
+.object-fit{
+    object-fit: cover;
+}
+
+.object-pelicula{
+    background-image: url(./background-image.jpg);
+    background-size: cover;
+    background-position: center center;
+}
